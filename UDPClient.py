@@ -1,7 +1,7 @@
 from socket import *
 import sys
 
-serverName = 'localhost'  # Substitua pelo IP do servidor
+serverName = 'localhost' 
 serverPort = 12000
 
 try:
@@ -14,9 +14,8 @@ try:
                 break
                 
             clientSocket.sendto(message.encode(), (serverName, serverPort))
-            
-            # Configura timeout para não ficar esperando eternamente
-            clientSocket.settimeout(5.0)  # 5 segundos
+        
+            clientSocket.settimeout(5.0) 
             
             try:
                 modifiedMessage, serverAddress = clientSocket.recvfrom(2048)
