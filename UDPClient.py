@@ -1,7 +1,7 @@
 from socket import *
 import sys
 
-serverName = '192.168.1.6'  # Substitua pelo IP do servidor
+serverName = 'localhost'  # Substitua pelo IP do servidor
 serverPort = 12000
 
 try:
