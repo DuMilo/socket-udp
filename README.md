@@ -10,6 +10,6 @@
 
 ### Protocolo UDP
 
-- Não necessita de conexão, pois não estabelece uma canal de comunicação dedicado antes da transferência de dados.
+- Não necessita de conexão, pois não estabelece um canal de comunicação dedicado antes da transferência de dados.
 - Entrega rápida, porém sua entrega de dados não é garantida/confiável, além de não manter a ordem dos dados transferidos.
 - Mais utilizável para meios de conexão simples e rápida, como streamings, jogos, etc.
