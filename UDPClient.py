@@ -1,7 +1,7 @@
 from socket import *
 import sys
 
-serverName = 'localhost' 
+serverName = '192.168.56.1' 
 serverPort = 12000
 
 try:
